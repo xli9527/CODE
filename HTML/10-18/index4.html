@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #firstdiv{
+            background-color: aquamarine;
+        }
+
+        #seconddiv{
+            background-color: cadetblue;
+        }
+
+        #thirddiv{
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="firstdiv">
+        <a href="#firstdiv">跳转到第一个div</a>
+        <a href="#seconddiv">跳转到第二个div</a>
+        <a href="#thirddiv">跳转到第三个div</a>
+    </div>
+    <div id="seconddiv">
+        <a href="#firstdiv">返回</a>
+    </div>
+    <div id="thirddiv">
+        <a href="#firstdiv">返回</a>
+    </div>
+</body>
+</html>
