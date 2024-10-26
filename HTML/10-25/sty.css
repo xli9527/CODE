@@ -1,0 +1,19 @@
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.ca {
+    background-color: cadetblue;
+    color: white;
+}
+
+.cb {
+    background-color: darkgrey;
+    color: white;
+}
+
+.cc{
+    background-color: darkgoldenrod;
+}
