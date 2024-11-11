@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c,d,f,g,h,i,j;
+    int a,h,i,j;
+    char b,c,d,f,g;
     printf("新录入学生的学号为（自动按序号生成）：");
     scanf("%d",&a);
     printf("请输入学生姓名（2~3个中文）：") ;
